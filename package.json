@@ -20,5 +20,10 @@
     "autoprefixer": "^9.7.3",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "husky": "^4.0.6",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
   }
 }
