@@ -1,3 +1,21 @@
 @tailwind base;
+
+h2 {
+  @apply text-2xl text-gray-800 font-bold;
+}
+
+h3 {
+  @apply text-2xl text-gray-800 font-bold;
+}
+
 @tailwind components;
+
+.skilList_item {
+  @apply text-lg mb-2 text-gray-600 font-medium tracking-wide;
+}
+
+.activityList_item {
+  @apply text-lg mb-4 text-gray-600 underline;
+}
+
 @tailwind utilities;
