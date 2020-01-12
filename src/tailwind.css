@@ -11,11 +11,11 @@ h3 {
 @tailwind components;
 
 .skilList_item {
-  @apply text-lg mb-2 text-gray-600 font-medium tracking-wide;
+  @apply text-xl mb-2 text-gray-600 font-medium tracking-wide;
 }
 
 .activityList_item {
-  @apply text-lg mb-4 text-gray-600 underline;
+  @apply text-lg mb-4 text-gray-800 underline;
 }
 
 @tailwind utilities;

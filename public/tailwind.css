@@ -640,7 +640,7 @@ h3 {
 }
 
 .skilList_item {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: #718096;
   font-weight: 500;
@@ -650,7 +650,7 @@ h3 {
 .activityList_item {
   font-size: 1.125rem;
   margin-bottom: 1rem;
-  color: #718096;
+  color: #2d3748;
   text-decoration: underline;
 }
 
