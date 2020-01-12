@@ -640,9 +640,10 @@ h3 {
 }
 
 .skilList_item {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   color: #718096;
+  text-align: left;
   font-weight: 500;
   letter-spacing: 0.025em;
 }

@@ -11,7 +11,7 @@ h3 {
 @tailwind components;
 
 .skilList_item {
-  @apply text-xl mb-2 text-gray-600 font-medium tracking-wide;
+  @apply text-2xl mb-2 text-gray-600 text-left font-medium tracking-wide;
 }
 
 .activityList_item {
