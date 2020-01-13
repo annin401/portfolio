@@ -563,7 +563,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -599,6 +599,18 @@ video {
   height: auto;
 }
 
+h2 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  font-weight: 700;
+}
+
 .container {
   width: 100%;
 }
@@ -625,6 +637,23 @@ video {
   .container {
     max-width: 1280px;
   }
+}
+
+.skilList_item {
+  font-size: 1.875rem;
+  margin-bottom: 0.5rem;
+  margin-left: 48px;
+  color: #718096;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.activityList_item {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  text-decoration: underline;
 }
 
 .sr-only {
@@ -3645,16 +3674,8 @@ video {
   clear: both;
 }
 
-.font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-mono {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.font-body {
+  font-family: Avenir, Helvetica Neue, Helvetica, Arial, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, YuGothic, Yu Gothic, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 }
 
 .font-hairline {
@@ -11401,6 +11422,12 @@ video {
   z-index: auto;
 }
 
+/* 自作ユーティリティ */
+
+.ml-48px {
+  margin-left: 48px;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -14420,16 +14447,8 @@ video {
     clear: both;
   }
 
-  .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .sm\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .sm\:font-body {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, YuGothic, Yu Gothic, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -25196,16 +25215,8 @@ video {
     clear: both;
   }
 
-  .md\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .md\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .md\:font-body {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, YuGothic, Yu Gothic, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
   }
 
   .md\:font-hairline {
@@ -35972,16 +35983,8 @@ video {
     clear: both;
   }
 
-  .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .lg\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .lg\:font-body {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, YuGothic, Yu Gothic, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -46748,16 +46751,8 @@ video {
     clear: both;
   }
 
-  .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-
-  .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  }
-
-  .xl\:font-mono {
-    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  .xl\:font-body {
+    font-family: Avenir, Helvetica Neue, Helvetica, Arial, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, YuGothic, Yu Gothic, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
   }
 
   .xl\:font-hairline {
