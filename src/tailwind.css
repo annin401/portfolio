@@ -11,7 +11,7 @@ h3 {
 @tailwind components;
 
 .skilList_item {
-  @apply text-2xl mb-2 text-gray-600 text-left font-medium tracking-wide;
+  @apply text-3xl mb-2 ml-48px text-gray-600 text-left font-medium tracking-wide;
 }
 
 .activityList_item {
@@ -19,3 +19,9 @@ h3 {
 }
 
 @tailwind utilities;
+
+/* 自作ユーティリティ */
+
+.ml-48px {
+  margin-left: 48px;
+}
