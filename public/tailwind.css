@@ -611,6 +611,16 @@ h3 {
   font-weight: 700;
 }
 
+@media (min-width: 640px) {
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.875rem;
+  }
+}
+
 .container {
   width: 100%;
 }
@@ -649,11 +659,10 @@ h3 {
   letter-spacing: 0.025em;
 }
 
-.activityList_item {
-  font-size: 1.125rem;
-  margin-bottom: 1rem;
-  color: #2d3748;
-  text-decoration: underline;
+@media (min-width: 640px) {
+  .skilList_item {
+    font-size: 2.25rem;
+  }
 }
 
 .sr-only {
@@ -11428,6 +11437,14 @@ h3 {
   margin-left: 48px;
 }
 
+.font-3xl {
+  font-size: 3rem;
+}
+
+.font-4xl {
+  font-size: 4rem;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -22193,6 +22210,14 @@ h3 {
 
   .sm\:z-auto {
     z-index: auto;
+  }
+
+  .sm\:font-3xl {
+    font-size: 3rem;
+  }
+
+  .sm\:font-4xl {
+    font-size: 4rem;
   }
 }
 
@@ -32962,6 +32987,14 @@ h3 {
   .md\:z-auto {
     z-index: auto;
   }
+
+  .md\:font-3xl {
+    font-size: 3rem;
+  }
+
+  .md\:font-4xl {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -43730,6 +43763,14 @@ h3 {
   .lg\:z-auto {
     z-index: auto;
   }
+
+  .lg\:font-3xl {
+    font-size: 3rem;
+  }
+
+  .lg\:font-4xl {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -54497,5 +54538,13 @@ h3 {
 
   .xl\:z-auto {
     z-index: auto;
+  }
+
+  .xl\:font-3xl {
+    font-size: 3rem;
+  }
+
+  .xl\:font-4xl {
+    font-size: 4rem;
   }
 }

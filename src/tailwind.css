@@ -8,14 +8,26 @@ h3 {
   @apply text-2xl text-gray-800 font-bold;
 }
 
+@screen sm {
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+}
+
 @tailwind components;
 
 .skilList_item {
   @apply text-3xl mb-2 ml-48px text-gray-600 text-left font-medium tracking-wide;
 }
 
-.activityList_item {
-  @apply text-lg mb-4 text-gray-800 underline;
+@screen sm {
+  .skilList_item {
+    @apply text-4xl;
+  }
 }
 
 @tailwind utilities;
@@ -24,4 +36,14 @@ h3 {
 
 .ml-48px {
   margin-left: 48px;
+}
+
+@responsive {
+  .font-3xl {
+    font-size: 3rem;
+  }
+
+  .font-4xl {
+    font-size: 4rem;
+  }  
 }
