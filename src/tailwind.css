@@ -18,6 +18,12 @@ h3 {
   }
 }
 
+@screen lg {
+  h2 {
+    @apply text-2xl;
+  }
+}
+
 @tailwind components;
 
 .skilList_item {
@@ -26,7 +32,13 @@ h3 {
 
 @screen sm {
   .skilList_item {
-    @apply text-4xl;
+    @apply text-4xl mb-4;
+  }
+}
+
+@screen lg {
+  .skilList_item {
+    @apply text-5xl mb-6;
   }
 }
 
