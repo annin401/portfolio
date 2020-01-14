@@ -38,7 +38,7 @@ h3 {
 
 @screen lg {
   .skilList_item {
-    @apply text-5xl mb-6;
+    @apply text-5xl mb-5;
   }
 }
 
