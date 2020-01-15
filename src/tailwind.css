@@ -8,14 +8,57 @@ h3 {
   @apply text-2xl text-gray-800 font-bold;
 }
 
+a:hover {
+  @apply text-green-400 border-none;
+}
+
+a:active {
+  @apply text-green-500;
+}
+
+a:focus {
+  /* TODO: outlineをつける */
+  @apply outline-none;
+}
+
+@screen sm {
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+}
+
+@screen lg {
+  h2 {
+    @apply text-2xl;
+  }
+}
+
+@screen xxl {
+  h2 {
+    @apply text-3xl;
+  }
+}
+
 @tailwind components;
 
 .skilList_item {
   @apply text-3xl mb-2 ml-48px text-gray-600 text-left font-medium tracking-wide;
 }
 
-.activityList_item {
-  @apply text-lg mb-4 text-gray-800 underline;
+@screen sm {
+  .skilList_item {
+    @apply text-4xl mb-4;
+  }
+}
+
+@screen lg {
+  .skilList_item {
+    @apply text-5xl mb-5;
+  }
 }
 
 @tailwind utilities;
@@ -24,4 +67,34 @@ h3 {
 
 .ml-48px {
   margin-left: 48px;
+}
+
+@responsive {
+  .font-3xl {
+    font-size: 3rem;
+  }
+
+  .font-4xl {
+    font-size: 4rem;
+  }
+
+  .w-30% {
+    width: 30%;
+  }
+
+  .w-70% {
+    width: 70%;
+  }
+
+  .ml-30% {
+    margin-left: 30%;
+  }
+
+  .max-w-70% {
+    max-width: 70%;
+  }
+
+  .text-shadow {
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+  }
 }

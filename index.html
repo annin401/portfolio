@@ -13,28 +13,50 @@
   </head>
   <body class="bg-white font-body">
     <header
-      class="py-12 bg-no-repeat bg-cover bg-center"
+      class="py-12 bg-no-repeat bg-cover bg-center lg:fixed lg:w-30% lg:h-full lg:pt-32 lg:pr-16 lg:flex lg:flex-col lg:items-end lg:bg-scroll"
       style="background-image: url(public/img/header_image.jpg);"
     >
-      <img
-        class="h-24 w-auto mx-auto my-4"
-        src="public/img/annin_icon_circle.png"
-        alt="annin's icon"
-        height="598"
-        width="598"
-      />
-      <h1 class="text-center text-white">
-        初めまして、anninです。
-        <br />
-        久留米高専の学生です。
-        <br />
-        プログラミングときららが大好きです。
-      </h1>
+      <div>
+        <img
+          class="h-24 w-auto mx-auto my-4 lg:m-0 lg:ml-auto lg:mb-8"
+          src="public/img/annin_icon_circle.png"
+          alt="annin's icon"
+          height="598"
+          width="598"
+        />
+        <h1
+          class="text-shadow text-center text-gray-300 sm:text-lg lg:text-right lg:leading-loose xxl:text-2xl"
+        >
+          初めまして annin です.
+          <br />
+          久留米高専の学生です.
+          <br />
+          プログラミングと
+          <br class="hidden lg:inline" />
+          きららが大好きです.
+        </h1>
+      </div>
+      <div class="hidden lg:block mt-auto mb-16">
+        <p
+          class="text-shadow hidden text-gray-300 text-sm text-right lg:block xxl:text-base"
+        >
+          Background vector:
+          <a
+            class="underline"
+            href="https://www.freepik.com/free-photos-vectors/background"
+            target="_blank"
+          >
+            www.freepik.com
+          </a>
+        </p>
+      </div>
     </header>
-    <main class="px-8 py-12">
-      <section class="mb-12">
-        <h2 class="mb-4 text-center">Skill</h2>
-        <div class="text-center">
+    <main
+      class=" max-w-md mx-auto px-8 py-12 sm:max-w-xl lg:max-w-4xl lg:ml-30% lg:py-32 lg:px-20 lg:max-w-6xl"
+    >
+      <section class="mb-12 sm:mb-16">
+        <h2 class="mb-4 text-center lg:text-left">Skill</h2>
+        <div class="text-center lg:text-left">
           <ul class="fa-ul inline-block">
             <li class="skilList_item ">
               <span class="fa-li">
@@ -69,8 +91,8 @@
           </ul>
         </div>
       </section>
-      <section class="mb-12">
-        <h2 class="mb-4 text-center">Project</h2>
+      <section class="mb-12 sm:mb-16">
+        <h2 class="mb-4 text-center lg:text-left">Project</h2>
         <div>
           <article>
             <h3>
@@ -81,16 +103,20 @@
                 Gampuku Viewer
               </a>
             </h3>
-            <img src="public/img/Gampuku_demo.png" alt="" />
-            <p class="my-2 text-gray-800">
+            <img
+              class="w-full h-auto rounded-lg"
+              src="public/img/Gampuku_demo.png"
+              alt="アプリのデモ画像"
+            />
+            <p class="my-2 text-gray-800 sm:text-lg xxl:text-xl">
               <b>スライドショー型画像ビューア</b>
             </p>
-            <p class="mb-2 text-gray-600">
+            <p class="mb-2 text-gray-600 sm:text-lg xxl:text-xl">
               twitterのTLに流れてくるイラストをいいね＆リツイートそして保存、それだけで満足していませんか？
               このアプリを使うと保存したイラストを画面の一角にスライドショーできます。時間をとって眺めるも良し、
               レポートのお供に使うのも良しなデスクトップアプリです。
             </p>
-            <p class="text-gray-800 font-semibold">
+            <p class="text-gray-800 font-semibold sm:text-lg xxl:text-xl">
               使用言語: Python
               <br />
               対応OS: MacOS
@@ -98,41 +124,43 @@
           </article>
         </div>
       </section>
-      <section class="mb-12">
-        <h2 class="mb-4 text-center">Blog</h2>
+      <section class="mb-12 sm:mb-16">
+        <h2 class="mb-4 text-center lg:text-left">Blog</h2>
         <h3 class="underline">
           <a href="https://qiita.com/annin401" target="_blank">Qiita</a>
         </h3>
-        <p class="mb-2 text-gray-600">主に技術系の記事を投稿しています。</p>
+        <p class="mb-2 text-gray-600 sm:text-lg sm:mb-4 xxl:text-xl">
+          主に技術系の記事を投稿しています。
+        </p>
         <h3 class="underline">
           <a href="https://annin401.hatenablog.com/" target="_blank"
             >Hatena Blog</a
           >
         </h3>
-        <p class="mb-2 text-gray-600">
+        <p class="mb-2 text-gray-600 sm:text-lg sm:mb-4 xxl:text-xl">
           イベントに参加した感想や趣味の記事などを投稿しています。
         </p>
       </section>
       <section>
-        <h2 class="mb-6 text-center">Activity</h2>
-        <ul class="flex justify-around text-gray-800">
+        <h2 class="mb-6 text-center lg:text-left">Activity</h2>
+        <ul class="flex justify-around text-gray-800 ">
           <li>
             <a href="https://twitter.com/annin41643109" target="_blank">
-              <i class="fab fa-twitter fa-3x"></i>
+              <i class="fab fa-twitter font-3xl sm:font-4xl"></i>
               <span class="hidden">Twitter</span>
             </a>
           </li>
           <li>
             <a href="https://github.com/annin401" target="_blank">
-              <i class="fab fa-github fa-3x"></i>
+              <i lg:text-left class="fab fa-github font-3xl sm:font-4xl"></i>
               <span class="hidden">Github</span>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="bg-gray-900 py-8">
-      <p class="text-gray-300 text-sm text-center">
+    <footer class="bg-gray-900 py-8 lg:hidden">
+      <p class="text-gray-300 text-sm text-center sm:text-base">
         Background vector:
         <a
           class="underline"
