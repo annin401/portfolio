@@ -611,6 +611,20 @@ h3 {
   font-weight: 700;
 }
 
+a:hover {
+  color: #68d391;
+  border-style: none;
+}
+
+a:active {
+  color: #48bb78;
+}
+
+a:focus {
+  /* TODO: outlineをつける */
+  outline: 0;
+}
+
 @media (min-width: 640px) {
   h2 {
     font-size: 1.875rem;

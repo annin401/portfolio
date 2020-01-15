@@ -8,6 +8,19 @@ h3 {
   @apply text-2xl text-gray-800 font-bold;
 }
 
+a:hover {
+  @apply text-green-400 border-none;
+}
+
+a:active {
+  @apply text-green-500;
+}
+
+a:focus {
+  /* TODO: outlineをつける */
+  @apply outline-none;
+}
+
 @screen sm {
   h2 {
     @apply text-3xl;
