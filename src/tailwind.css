@@ -17,8 +17,7 @@ a:active {
 }
 
 a:focus {
-  /* TODO: outlineをつける */
-  @apply outline-none;
+  outline: dotted;
 }
 
 @screen sm {
