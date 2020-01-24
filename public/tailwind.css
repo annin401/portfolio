@@ -621,8 +621,7 @@ a:active {
 }
 
 a:focus {
-  /* TODO: outlineをつける */
-  outline: 0;
+  outline: dotted;
 }
 
 @media (min-width: 640px) {
